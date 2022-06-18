@@ -1,0 +1,98 @@
+.case {
+  padding: 50px 0;
+  color: #fff;
+  position: relative;
+  &_content {
+    padding-top: 150px;
+    padding-left: 100px;
+    z-index: 100;
+    h1 {
+      font-size: 48px;
+      padding-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-left: 50px;
+      padding-bottom: 10px;
+    }
+    span {
+      font-size: 14px;
+      display: block;
+      margin-left: 50px;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      background: #f9359f;
+      border-radius: 30px;
+      padding: 10px 30px;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+  }
+  .case_video img {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    overflow: visible;
+    position: absolute;
+    top: 50px;
+    right: -60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .back_title {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: -2;
+    opacity: 0.4;
+    h1 {
+      font-size: 150px;
+      color: gray;
+    }
+  }
+  .back_layers {
+    position: absolute;
+    top: 99%;
+    left: 55%;
+  }
+}
+
+.video_player {
+  position: absolute;
+  top: 20%;
+  right: -8%;
+  width: 750px;
+  height: 750px;
+}
+
+.video {
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+.player_control {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: coral;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  color: grey;
+  padding: 20px 22px;
+  border: 2px solid grey;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.technology {
+  padding: 40px 70px;
+  color: #fff;
+  position: relative;
+  .tech_title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    p {
+      font-size: 14px;
+      padding-left: 50px;
+    }
+    h1 {
+      font-size: 48px;
+      padding: 20px 0;
+    }
+    p:last-child {
+      font-size: 20px;
+      padding-left: 50px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.help {
+  position: relative;
+  padding: 250px 0 100px 0;
+  &_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+    padding-top: 150px;
+
+    h1 {
+      color: #fff;
+      padding-bottom: 30px;
+    }
+    p {
+      color: #fff;
+    }
+  }
+  &_description {
+    display: flex;
+    justify-content: space-between;
+    a:first-child {
+      border-bottom: 3px solid #fff;
+    }
+    a {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      font-size: 14px;
+      padding: 10px 0;
+    }
+  }
+  .help_back {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    h1 {
+      color: #fff;
+      font-size: 200px;
+      opacity: 0.2;
+    }
+  }
+  .help_layers {
+    position: absolute;
+    top: 120%;
+    left: -70px;
+    margin-top: 100px;
+    z-index: -5;
+  }
+}
